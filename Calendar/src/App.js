@@ -48,7 +48,7 @@ addTask = (week, day, taskNumber) => {
     const taskName = (this.state.taskName !== '' && this.state.taskName !== this.state.data[week][day][taskNumber].taskName) 
       ? this.state.taskName 
       : this.state.data[week][day][taskNumber].taskName
-    const taskDescr = (this.state.taskDescr !== this.state.data[week][day][taskNumber].taskDescr) 
+    const taskDescr = (this.state.taskDescr !== '' && this.state.taskDescr !== this.state.data[week][day][taskNumber].taskDescr) 
       ? this.state.taskDescr
       : this.state.data[week][day][taskNumber].taskDescr 
     const currTask = {taskName: taskName, taskDescr: taskDescr}
