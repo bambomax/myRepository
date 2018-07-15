@@ -1,0 +1,62 @@
+.wrapper {
+  width: 700px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.th {
+  border: 1px solid black;
+}
+
+.cell {
+  vertical-align: top;
+  text-align: right;
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+}
+
+.cell:hover {
+  background: rgb(248, 255, 224);
+}
+
+.task {
+  text-align: center;
+  background: rgb(62, 170, 233);
+  color: white;
+  border-radius: 3px;
+  margin: 3px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.modal {
+  margin: 20px auto;
+  padding-top: 0px;
+  padding: 20px;
+  width: 300px;
+  background: white;
+  border: 1px solid black;
+  text-align: center;
+}
+
+textarea {
+  resize: 'none';
+  min-height: 30px;
+  width: 250px;
+}
